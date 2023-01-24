@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --soft-orange: #e9ab53;
+  --soft-red: #f15e50;
+  --off-white: #fffdfa;
+  --grayish-blue: #c5c6ce;
+  --dark-gblue: #5d5f79;
+  --very-dblue: #00001a;
+}
+
+body {
+  background-color: var(--off-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
