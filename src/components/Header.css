@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    padding: 10px;
 }
 
 .header-mob {
@@ -29,7 +30,7 @@
     transition: 0.5s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 675px) {
 
     .header-dt {
         display: none;
@@ -66,9 +67,10 @@
         opacity: 60%;
         z-index: 8;
         background-color: black;
-        width: calc(100vw - 50px);
+        width: 100vw;
         height: 1570px;
-        padding: 130px 25px;
+        padding: 130px 0px;
         position: absolute;
+        margin-left: -15vw;
     }
 }
